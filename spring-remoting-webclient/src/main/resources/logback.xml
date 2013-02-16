@@ -24,6 +24,11 @@
 		<level value="trace" />
 	</logger> 
 
+	<logger
+		name="org.springframework">
+		<level value="trace" />
+	</logger>
+
 	<!-- Root Logger -->
 	<root level="warn">
 		<appender-ref ref="console" />
